@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import CaseStudy from "@/components/CaseStudy";
+import List from "@/components/List";
 import Image from "next/image";
 
 export default function Home() {
@@ -123,6 +124,49 @@ export default function Home() {
               Complex arbitrage or leverage chains batch into a single Bundle, settle in 250 ms, and revert safely if any leg fails—saving gas and sanity. Verifiable ordering locks in fair execution, internalizing MEV for LPs and tightening spreads. Under the hood, TEE-backed proofs keep nodes geographically."
           />
         </div>
+      </section>
+
+      <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+        <div>
+          <p>
+            Flashblocks
+          </p>
+          <h2>
+            Flashblocks: <br/>
+            Open source plugins for based rollups
+          </h2>
+          <p>
+            Apply performance and functionality upgrades to existing rollup codebases
+          </p>
+          <List
+            icon="/images/icon/check-circle.svg"
+            title="Preconfirmations"
+            description="Enable fast user experience while retaining based-ness."
+          />
+          <List
+            icon="/images/icon/sliders-horizontal.svg"
+            title="Proving"
+            description="Accelerate with multiprovers, and TEE proving infrastructure from Rollup Boost."
+          />
+          <List
+            icon="/images/icon/boxes.svg"
+            title="Block Building"
+            description="Boost block production and sequencing speed with Rollup Boost."
+          />
+          <List
+            icon="/images/icon/layers.svg"
+            title="Composability"
+            description="Seamlessly integrate layers for unified liquidity"
+          />
+          
+        </div>
+        <Image 
+          src="/images/flashblocks-section.png" 
+          alt="" 
+          width={500} 
+          height={500} 
+          className="h-160 w-auto max-w-fill mx-auto"
+        />
       </section>
 
     </main>
