@@ -16,28 +16,28 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <Image 
-              src="/base.png" 
+              src="/images/base.png" 
               alt="" 
               width={88} 
               height={88} 
               className="w-22 h-22"
             />
             <Image 
-              src="/unichain.png" 
+              src="/images/unichain.png" 
               alt="" 
               width={88} 
               height={88} 
               className="w-22 h-22"
             />
             <Image 
-              src="/world.png" 
+              src="/images/world.png" 
               alt="" 
               width={88} 
               height={88} 
               className="w-22 h-22"
             />
             <Image 
-              src="/optimism.png" 
+              src="/images/optimism.png" 
               alt="" 
               width={88} 
               height={88} 
@@ -82,6 +82,34 @@ export default function Home() {
           <Card 
             title="Flashblocks"
             image="/images/flashblocks.png"
+            description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
+          />
+        </div>
+      </section>
+
+      <section className="w-full gap-5 items-center">
+        <div>
+          <h2>
+            Use cases: guarantees to users and allowing applications to internalize their MEV
+          </h2>
+          <p>
+            In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
+          </p>
+        </div>
+        <div className="grid grid-cols-3">
+          <Card 
+            title="Decentralization"
+            image="/images/decentralization.png"
+            description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
+          />
+          <Card 
+            title="Transaction Inclusion"
+            image="/images/transaction-inclusion.png"
+            description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
+          />
+          <Card 
+            title="Encrypted Mempool"
+            image="/images/encrypted-mempool.png"
             description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
           />
         </div>
