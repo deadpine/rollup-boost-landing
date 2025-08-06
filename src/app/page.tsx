@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import Image from "next/image";
 
 export default function Home() {
@@ -51,6 +52,39 @@ export default function Home() {
           height={500} 
           className="w-120 max-w-fill h-auto mx-auto"
         />
+      </section>
+
+      <section className="w-full gap-5 items-center">
+        <div>
+          <h2>
+            Verifiable priority ordering within each Flashblock, giving greater guarantees to users and allowing applications to internalize their MEV.
+          </h2>
+          <p>
+            In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
+          </p>
+        </div>
+        <div className="grid grid-cols-4">
+          <Card 
+            title="Decentralization"
+            image="/images/decentralization.png"
+            description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
+          />
+          <Card 
+            title="Transaction Inclusion"
+            image="/images/transaction-inclusion.png"
+            description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
+          />
+          <Card 
+            title="Encrypted Mempool"
+            image="/images/encrypted-mempool.png"
+            description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
+          />
+          <Card 
+            title="Flashblocks"
+            image="/images/flashblocks.png"
+            description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
+          />
+        </div>
       </section>
 
     </main>
