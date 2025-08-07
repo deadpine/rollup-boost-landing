@@ -169,6 +169,33 @@ export default function Home() {
         />
       </section>
 
+      <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+        <Image 
+          src="/images/tees-section.png" 
+          alt="" 
+          width={500} 
+          height={500} 
+          className="h-160 w-auto max-w-fill mx-auto"
+        />
+        <div>
+          <p>
+            tees
+          </p>
+          <h2>
+            Decentralizing Ethereum’s Last Mile
+          </h2>
+          <p>
+            With decentralization, as with security, the system is only as decentralized as its least decentralized part. If configuration or secrets availability rests on a centralized server, then the system as a whole is centralized as a result — and the same applies equally to governance and service discovery.
+          </p>
+          <p>
+            Tailored decentralization: It’s important to keep decentralization properties at corresponding levels. Forcing service provisioning that has wildly different decentralization properties from the service itself will be much less  inefficient and will create friction — whether it’s much decentralized.
+          </p>
+          <p>
+            This applies especially to the governance model — who controls what and how. The governance model should be consistent throughout the application, provisioning included.
+          </p>
+        </div>
+      </section>
+
     </main>
     
   );
