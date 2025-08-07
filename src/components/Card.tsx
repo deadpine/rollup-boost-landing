@@ -8,7 +8,7 @@ interface CardProps {
 
 export default function Card({ title, image, description }: CardProps) {
   return (
-    <div className="w-full flex flex-col gap-1 pt-6 border-t border-gray-200 overflow-hidden">  
+    <div className="w-full flex flex-col gap-16 pt-6 overflow-hidden">  
       
       <p>{title}</p>
       

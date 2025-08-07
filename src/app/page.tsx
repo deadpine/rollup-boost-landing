@@ -6,14 +6,14 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-40 px-8 pb-20">
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-4 px-8 pb-20">
       
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-        <div>
-          <h1>
+        <div className="flex flex-col ">
+          <h1 className="text-black font-semibold text-5xl font-degular">
             Upgrade your rollups across performance, programmability, and decentralization.
           </h1>
-          <p>
+          <p className="text-xs font-mono uppercase py-6">
             used by leading projects
           </p>
           <div className="flex gap-4">
@@ -57,15 +57,15 @@ export default function Home() {
       </section>
 
       <section className="w-full gap-5 items-center">
-        <div>
-          <h2>
-            Verifiable priority ordering within each Flashblock, giving greater guarantees to users and allowing applications to internalize their MEV.
+        <div className="max-w-3xl mx-auto text-center pt-40 pb-12">
+          <h2 className="text-black font-semibold text-4xl font-degular pb-4">
+            Verifiable priority within each Flashblock, offering stronger guarantees and enabling apps to internalize MEV.
           </h2>
           <p>
             In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
           </p>
         </div>
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-4 gap-x-8">
           <Card 
             title="Decentralization"
             image="/images/decentralization.png"
@@ -90,15 +90,15 @@ export default function Home() {
       </section>
 
       <section className="w-full gap-5 items-center">
-        <div>
-          <h2>
+        <div className="max-w-3xl mx-auto text-center pt-40 pb-12">
+          <h2 className="text-black font-semibold text-4xl font-degular pb-4">
             Use cases: guarantees to users and allowing applications to internalize their MEV
           </h2>
           <p>
             In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
           </p>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3 gap-x-8">
           <CaseStudy
             logo="/images/base.png"
             builtfor="Commerce"
@@ -131,7 +131,7 @@ export default function Home() {
           <p>
             Flashblocks
           </p>
-          <h2>
+          <h2 className="text-black font-semibold text-4xl font-degular">
             Flashblocks: <br/>
             Open source plugins for based rollups
           </h2>
@@ -181,7 +181,7 @@ export default function Home() {
           <p>
             tees
           </p>
-          <h2>
+          <h2 className="text-black font-semibold text-4xl font-degular">
             Decentralizing Ethereum’s Last Mile
           </h2>
           <p>
