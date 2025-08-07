@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-4 px-8 pb-20">
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-20 px-8 pb-20">
       
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div className="flex flex-col ">
@@ -57,7 +57,7 @@ export default function Home() {
       </section>
 
       <section className="w-full gap-5 items-center">
-        <div className="max-w-3xl mx-auto text-center pt-40 pb-12">
+        <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-4xl font-degular pb-4">
             Verifiable priority within each Flashblock, offering stronger guarantees and enabling apps to internalize MEV.
           </h2>
@@ -65,7 +65,7 @@ export default function Home() {
             In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
           </p>
         </div>
-        <div className="grid grid-cols-4 gap-x-8">
+        <div className="grid grid-cols-4">
           <Card 
             title="Decentralization"
             image="/images/decentralization.png"
@@ -90,7 +90,7 @@ export default function Home() {
       </section>
 
       <section className="w-full gap-5 items-center">
-        <div className="max-w-3xl mx-auto text-center pt-40 pb-12">
+        <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-4xl font-degular pb-4">
             Use cases: guarantees to users and allowing applications to internalize their MEV
           </h2>
@@ -98,7 +98,7 @@ export default function Home() {
             In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-x-8">
+        <div className="grid grid-cols-3">
           <CaseStudy
             logo="/images/base.png"
             builtfor="Commerce"
@@ -181,16 +181,16 @@ export default function Home() {
           <p>
             tees
           </p>
-          <h2 className="text-black font-semibold text-4xl font-degular">
+          <h2 className="text-black font-semibold text-4xl py-8 font-degular">
             Decentralizing Ethereum’s Last Mile
           </h2>
-          <p>
+          <p className="py-2">
             With decentralization, as with security, the system is only as decentralized as its least decentralized part. If configuration or secrets availability rests on a centralized server, then the system as a whole is centralized as a result — and the same applies equally to governance and service discovery.
           </p>
-          <p>
+          <p className="py-2">
             Tailored decentralization: It’s important to keep decentralization properties at corresponding levels. Forcing service provisioning that has wildly different decentralization properties from the service itself will be much less  inefficient and will create friction — whether it’s much decentralized.
           </p>
-          <p>
+          <p className="py-2">
             This applies especially to the governance model — who controls what and how. The governance model should be consistent throughout the application, provisioning included.
           </p>
         </div>

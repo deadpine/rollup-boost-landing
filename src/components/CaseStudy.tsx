@@ -9,7 +9,7 @@ interface CaseProps {
 
 export default function Case({ builtfor, logo, subtitle, description }: CaseProps) {
   return (
-    <div className="w-full flex flex-col gap-8 pt-6 overflow-hidden">  
+    <div className="w-full flex flex-col gap-8 p-8 overflow-hidden">  
       <div className="w-full flex flex-col items-center justify-center relative">
         <Image
           src={logo}
