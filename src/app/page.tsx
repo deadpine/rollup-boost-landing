@@ -6,10 +6,24 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-20 px-8 pb-20">
-      
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-12 px-8 pb-20">
+      <nav className="w-full flex justify-between p-8">
+        <Image 
+          src="/images/rollup-boost_logo.svg" 
+          alt="Rollup boost logo" 
+          width={60} 
+          height={25} 
+          className="w-auto h-[25px]"
+        />
+        <ul className="flex gap-6 font-mono uppercase text-sm">
+          <li>Use Cases</li>
+          <li>Flashblocks</li>
+          <li>Docs</li>
+          <li>Get in Touch</li>
+        </ul>
+      </nav>
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-        <div className="h-full flex flex-col justify-between px-8 py-16">
+        <div className="h-full flex flex-col justify-between p-8">
           <h1 className="text-black font-semibold text-5xl font-degular pt-4">
             Upgrade your rollups <br/>
             across performance, programmability, and decentralization.
@@ -59,7 +73,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="w-full gap-5 items-center">
+      <section className="w-full gap-5 items-center py-16">
         <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-4xl font-degular pb-4">
             Verifiable priority within each Flashblock, offering stronger guarantees and enabling apps to internalize MEV.
@@ -92,7 +106,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full gap-5 items-center">
+      <section className="w-full gap-5 items-center py-16">
         <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-4xl font-degular pb-4">
             Use cases: guarantees to users and allowing applications to internalize their MEV
