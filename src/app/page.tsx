@@ -212,6 +212,24 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="w-full flex flex-col gap-5 p-12 items-center rounded-4xl bg-[radial-gradient(250%_160%_at_100%_100%,_#F2FDB8_0%,_#DAFB4E_50%,_#A5EC5C_90%)]">
+        <h2 className="text-black font-semibold text-4xl">
+          Explore Our Tech
+        </h2>
+        <div className="flex gap-4">
+          <a>
+            Try Testnet →
+          </a>
+          <a>
+            Explore Github →
+          </a>
+        </div> 
+        <p className="py-2 max-w-md text-center text-black">
+          Want to learn more about RollupBoost? <br/>
+          Visit our website page or contact us to get in touch.
+        </p>
+      </section>
+
     </main>
     
   );
