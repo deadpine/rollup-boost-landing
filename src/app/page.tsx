@@ -18,15 +18,15 @@ export default function Home() {
           className="w-auto h-[28px]"
         />
         <ul className="hidden md:flex flex-col md:flex-row gap-7 font-mono uppercase text-sm">
-          <li>Rollup-Boost</li>
-          <li>Use Cases</li>
-          <li>Flashblocks</li>
-          <li>Docs</li>
-          <li>Get in Touch</li>
+          <li><a href="#rollup-boost" className="hover:underline">Rollup-Boost</a></li>
+          <li><a href="#use-cases" className="hover:underline">Use Cases</a></li>
+          <li><a href="#flashblocks" className="hover:underline">Flashblocks</a></li>
+          <li><a href="" className="hover:underline">Docs</a></li>
+          <li><a href="#contact" className="hover:underline">Get in Touch</a></li>
         </ul>
       </nav>
 
-      <section className="w-full grid grid-cols-1 md:grid-cols-2 items-center">
+      <section id="home" className="w-full grid grid-cols-1 md:grid-cols-2 items-center">
         <div className="h-full flex flex-col justify-between md:p-8">
           <h1 className="text-black font-semibold text-4xl md:text-5xl pt-4">
             Upgrade your rollups across performance, programmability, and decentralization.
@@ -76,7 +76,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="w-full gap-5 items-center py-6 md:py-12">
+      <section id="rollup-boost" className="w-full gap-5 items-center py-6 md:py-12">
         <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-3xl md:text-4xl pb-4">
             Verifiable priority within each Flashblock, offering stronger guarantees and enabling apps to internalize MEV.
@@ -109,7 +109,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full gap-5 items-center py-6 md:py-12">
+      <section id="use-cases" className="w-full gap-5 items-center py-6 md:py-12">
         <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-3xl md:text-4xl pb-4">
             Use cases: guarantees to users and allowing applications to internalize their MEV
@@ -146,7 +146,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+      <section id="flashblocks" className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div className="px-8">
           <Chip label="Flashblocks" />
           <div className="pt-8 pb-5">
@@ -188,7 +188,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
+      <section id="tees" className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <Image 
           src="/images/tees-section.png" 
           alt="" 
@@ -213,7 +213,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex flex-col gap-7 p-16 items-center rounded-[96px] bg-[radial-gradient(250%_160%_at_100%_100%,_#F2FDB8_0%,_#DAFB4E_50%,_#A5EC5C_90%)]">
+      <section id="contact" className="w-full flex flex-col gap-7 p-16 items-center rounded-[96px] bg-[radial-gradient(250%_160%_at_100%_100%,_#F2FDB8_0%,_#DAFB4E_50%,_#A5EC5C_90%)]">
         <h2 className="text-black font-semibold text-4xl">
           Explore Our Tech
         </h2>
