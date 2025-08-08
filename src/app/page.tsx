@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-8 px-8 pb-20">
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-10 px-8 pb-20">
       <nav className="w-full flex justify-between p-8">
         <Image 
           src="/images/rollup-boost_logo.svg" 
@@ -148,7 +148,7 @@ export default function Home() {
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div className="px-8">
           <Chip label="Flashblocks" />
-          <div className="pt-8 py-6">
+          <div className="pt-8 pb-5">
             <h2 className="max-w-xl text-black font-semibold text-4xl py-4">
               Flashblocks: Open source plugins for based rollups
             </h2>

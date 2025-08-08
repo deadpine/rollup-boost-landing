@@ -14,7 +14,7 @@ export default function Case({ icon, title, description }: CaseProps) {
       alt={icon}
       width={24}
       height={24}
-      className="h-6 w-6"
+      className="h-6 w-6 pt-[2px]"
     />
     <div>
       <b>{title}</b>
