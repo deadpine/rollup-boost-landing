@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-10 px-8">
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-4 md:space-y-10 px-6 md:px-8">
       
       <nav className="w-full flex justify-between p-8">
         <Image 
@@ -17,7 +17,7 @@ export default function Home() {
           height={25} 
           className="w-auto h-[28px]"
         />
-        <ul className="flex gap-7 font-mono uppercase text-sm">
+        <ul className="hidden md:flex flex-col md:flex-row gap-7 font-mono uppercase text-sm">
           <li>Rollup-Boost</li>
           <li>Use Cases</li>
           <li>Flashblocks</li>
@@ -26,11 +26,10 @@ export default function Home() {
         </ul>
       </nav>
 
-      <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-        <div className="h-full flex flex-col justify-between p-8">
-          <h1 className="text-black font-semibold text-5xl pt-4">
-            Upgrade your rollups <br/>
-            across performance, programmability, and decentralization.
+      <section className="w-full grid grid-cols-1 md:grid-cols-2 items-center">
+        <div className="h-full flex flex-col justify-between md:p-8">
+          <h1 className="text-black font-semibold text-4xl md:text-5xl pt-4">
+            Upgrade your rollups across performance, programmability, and decentralization.
           </h1>
           <div>
             <p className="text-sm font-mono uppercase py-6">
@@ -42,28 +41,28 @@ export default function Home() {
                 alt="" 
                 width={88} 
                 height={88} 
-                className="w-22 h-22"
+                className="w-16 md:w-22 h-auto"
               />
               <Image 
                 src="/images/unichain.svg" 
                 alt="" 
                 width={88} 
                 height={88} 
-                className="w-22 h-22"
+                className="w-16 md:w-22 h-auto"
               />
               <Image 
                 src="/images/world.svg" 
                 alt="" 
                 width={88} 
                 height={88} 
-                className="w-22 h-22"
+                className="w-16 md:w-22 h-auto"
               />
               <Image 
                 src="/images/optimism.svg" 
                 alt="" 
                 width={88} 
                 height={88} 
-                className="w-22 h-22"
+                className="w-16 md:w-22 h-auto"
               />
             </div>
           </div>
@@ -77,16 +76,16 @@ export default function Home() {
         />
       </section>
 
-      <section className="w-full gap-5 items-center py-12">
+      <section className="w-full gap-5 items-center py-6 md:py-12">
         <div className="max-w-3xl mx-auto text-center py-12">
-          <h2 className="text-black font-semibold text-4xl pb-4">
+          <h2 className="text-black font-semibold text-3xl md:text-4xl pb-4">
             Verifiable priority within each Flashblock, offering stronger guarantees and enabling apps to internalize MEV.
           </h2>
           <p>
             In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
           </p>
         </div>
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-y-12">
           <Card 
             title="Decentralization"
             image="/images/decentralization.svg"
@@ -110,16 +109,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full gap-5 items-center py-12">
+      <section className="w-full gap-5 items-center py-6 md:py-12">
         <div className="max-w-3xl mx-auto text-center py-12">
-          <h2 className="text-black font-semibold text-4xl pb-4">
+          <h2 className="text-black font-semibold text-3xl md:text-4xl pb-4">
             Use cases: guarantees to users and allowing applications to internalize their MEV
           </h2>
           <p>
             In its final form, this extension model  the unique properties of TEEs will allow rollups to harmonize two previously opposing. The unique properties of TEEs will allow rollups to harmonize two.
           </p>
         </div>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           <CaseStudy
             logo="/images/base.svg"
             builtfor="Commerce"

@@ -9,7 +9,7 @@ interface CardProps {
 
 export default function Card({ title, image, description }: CardProps) {
   return (
-    <div className="w-full flex flex-col items-center gap-12 p-8 overflow-hidden">  
+    <div className="w-full flex flex-col items-center gap-2 md:gap-12 px-2 py-6 md:p-8 overflow-hidden">  
       
       <Chip label={title} />
       
