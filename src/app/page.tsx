@@ -9,42 +9,45 @@ export default function Home() {
     <main className="font-sans flex flex-col items-center sm:items-start space-y-20 px-8 pb-20">
       
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-        <div className="flex flex-col ">
-          <h1 className="text-black font-semibold text-5xl font-degular">
-            Upgrade your rollups across performance, programmability, and decentralization.
+        <div className="h-full flex flex-col justify-between px-8 py-16">
+          <h1 className="text-black font-semibold text-5xl font-degular pt-4">
+            Upgrade your rollups <br/>
+            across performance, programmability, and decentralization.
           </h1>
-          <p className="text-xs font-mono uppercase py-6">
-            used by leading projects
-          </p>
-          <div className="flex gap-4">
-            <Image 
-              src="/images/base.png" 
-              alt="" 
-              width={88} 
-              height={88} 
-              className="w-22 h-22"
-            />
-            <Image 
-              src="/images/unichain.png" 
-              alt="" 
-              width={88} 
-              height={88} 
-              className="w-22 h-22"
-            />
-            <Image 
-              src="/images/world.png" 
-              alt="" 
-              width={88} 
-              height={88} 
-              className="w-22 h-22"
-            />
-            <Image 
-              src="/images/optimism.png" 
-              alt="" 
-              width={88} 
-              height={88} 
-              className="w-22 h-22"
-            />
+          <div>
+            <p className="text-sm font-mono uppercase py-6">
+              used by leading projects
+            </p>
+            <div className="flex gap-4">
+              <Image 
+                src="/images/base.svg" 
+                alt="" 
+                width={88} 
+                height={88} 
+                className="w-22 h-22"
+              />
+              <Image 
+                src="/images/unichain.svg" 
+                alt="" 
+                width={88} 
+                height={88} 
+                className="w-22 h-22"
+              />
+              <Image 
+                src="/images/world.svg" 
+                alt="" 
+                width={88} 
+                height={88} 
+                className="w-22 h-22"
+              />
+              <Image 
+                src="/images/optimism.svg" 
+                alt="" 
+                width={88} 
+                height={88} 
+                className="w-22 h-22"
+              />
+            </div>
           </div>
         </div>
         <Image 
@@ -100,7 +103,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-3">
           <CaseStudy
-            logo="/images/base.png"
+            logo="/images/base.svg"
             builtfor="Commerce"
             subtitle="Flashblocks"
             description="
@@ -108,7 +111,7 @@ export default function Home() {
               Instant confirmations and revert protection let merchants offer one-tap checkouts, dynamic pricing, and loyalty perks without fear of failed swaps or front-running. Internalizes MEV, lowering spreads and enabling gas-sponsored purchases that keep fees near zero—even on peak days."
           />
           <CaseStudy
-            logo="/images/world.png"
+            logo="/images/world.svg"
             builtfor="Humans"
             subtitle="Priority-Based Hints"
             description="
@@ -116,7 +119,7 @@ export default function Home() {
               Wallets encode user intent directly in the hint; the TEE enforces it, guaranteeing transactions run in the promised order. With Flashblocks, everyday transfers, game moves, and identity proofs settle in 250 ms, while encrypted mempools keep data private from sequencers. The result: web2-like."
           />
           <CaseStudy
-            logo="/images/unichain.png"
+            logo="/images/unichain.svg"
             builtfor="DeFi"
             subtitle="Bundles & Revert Protection"
             description="
@@ -127,13 +130,12 @@ export default function Home() {
       </section>
 
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
-        <div>
+        <div className="px-8">
           <p>
             Flashblocks
           </p>
-          <h2 className="text-black font-semibold text-4xl font-degular">
-            Flashblocks: <br/>
-            Open source plugins for based rollups
+          <h2 className="max-w-xl text-black font-semibold text-4xl font-degular">
+            Flashblocks: Open source plugins for based rollups
           </h2>
           <p>
             Apply performance and functionality upgrades to existing rollup codebases
@@ -177,7 +179,7 @@ export default function Home() {
           height={500} 
           className="h-160 w-auto max-w-fill mx-auto"
         />
-        <div>
+        <div className="px-8">
           <p>
             tees
           </p>
