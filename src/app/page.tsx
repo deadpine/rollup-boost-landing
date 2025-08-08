@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import CaseStudy from "@/components/CaseStudy";
+import Chip from "@/components/Chip";
 import List from "@/components/List";
 import Image from "next/image";
 
@@ -85,22 +86,22 @@ export default function Home() {
         <div className="grid grid-cols-4">
           <Card 
             title="Decentralization"
-            image="/images/decentralization.png"
+            image="/images/decentralization.svg"
             description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
           />
           <Card 
             title="Transaction Inclusion"
-            image="/images/transaction-inclusion.png"
+            image="/images/transaction-inclusion.svg"
             description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
           />
           <Card 
             title="Encrypted Mempool"
-            image="/images/encrypted-mempool.png"
+            image="/images/encrypted-mempool.svg"
             description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
           />
           <Card 
             title="Flashblocks"
-            image="/images/flashblocks.png"
+            image="/images/flashblocks.svg"
             description="Rollup-Boost introduces the idea of Rollup Extensions, which are modular components for upgrading rollups across performance."
           />
         </div>
@@ -145,9 +146,7 @@ export default function Home() {
 
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div className="px-8">
-          <p>
-            Flashblocks
-          </p>
+          <Chip label="Flashblocks" />
           <h2 className="max-w-xl text-black font-semibold text-4xl">
             Flashblocks: Open source plugins for based rollups
           </h2>
@@ -194,10 +193,8 @@ export default function Home() {
           className="h-160 w-auto max-w-fill mx-auto"
         />
         <div className="px-8">
-          <p>
-            tees
-          </p>
-          <h2 className="text-black font-semibold text-4xl py-8">
+          <Chip label="Tees" />
+          <h2 className="text-black font-semibold text-4xl">
             Decentralizing Ethereum’s Last Mile
           </h2>
           <p className="py-2">
