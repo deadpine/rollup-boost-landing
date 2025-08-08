@@ -9,26 +9,36 @@ export default function Home() {
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
     <main className="font-sans flex flex-col items-center sm:items-start space-y-4 md:space-y-10 px-6 md:px-8">
       
-      <nav className="w-full flex justify-between p-8">
+      <nav className="w-full flex justify-between pt-6 pb-2 md:p-8">
         <Image 
           src="/images/rollup-boost_logo.svg" 
           alt="Rollup boost logo" 
           width={60} 
           height={25} 
-          className="w-auto h-[28px]"
+          className="w-auto h-[28px] mr-auto"
         />
         <ul className="hidden md:flex flex-col md:flex-row gap-7 font-mono uppercase text-sm">
-          <li><a href="#rollup-boost" className="hover:underline">Rollup-Boost</a></li>
-          <li><a href="#use-cases" className="hover:underline">Use Cases</a></li>
-          <li><a href="#flashblocks" className="hover:underline">Flashblocks</a></li>
-          <li><a href="" className="hover:underline">Docs</a></li>
-          <li><a href="#contact" className="hover:underline">Get in Touch</a></li>
+          <li><a className="hover:underline underline-offset-2" href="#rollup-boost">
+            Rollup-Boost
+          </a></li>
+          <li><a className="hover:underline underline-offset-2" href="#use-cases">
+            Use Cases
+          </a></li>
+          <li><a className="hover:underline underline-offset-2" href="#flashblocks">
+            Flashblocks
+          </a></li>
+          <li><a className="hover:underline underline-offset-2" href="https://github.com/flashbots/rollup-boost" target="_blank">
+            Docs
+          </a></li>
+          <li><a className="hover:underline underline-offset-2" href="#contact">
+            Get in Touch
+          </a></li>
         </ul>
       </nav>
 
       <section id="home" className="w-full grid grid-cols-1 md:grid-cols-2 items-center">
         <div className="h-full flex flex-col justify-between md:p-8">
-          <h1 className="text-black font-semibold text-4xl md:text-5xl pt-4">
+          <h1 className="max-w-xl text-black font-semibold text-4xl md:text-5xl pt-4">
             Upgrade your rollups across performance, programmability, and decentralization.
           </h1>
           <div>
@@ -218,10 +228,16 @@ export default function Home() {
           Explore Our Tech
         </h2>
         <div className="flex gap-4">
-          <a>
+          <a 
+            href="https://github.com/flashbots/rollup-boost" target="_blank" 
+            className="px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] bg-[#1A1D16] text-white hover:bg-[#31411C]"
+          >
             Try Testnet →
           </a>
-          <a>
+          <a 
+            href="https://github.com/flashbots/rollup-boost" target="_blank" 
+            className="px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] text-black hover:bg-[#FFFFFF80] hover:text-[#1A1D16]"
+          >
             Explore Github →
           </a>
         </div> 
