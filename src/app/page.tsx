@@ -65,7 +65,7 @@ export default function Home() {
           </div>
         </div>
         <Image 
-          src="/images/hero.png" 
+          src="/images/hero.svg" 
           alt="" 
           width={500} 
           height={500} 
