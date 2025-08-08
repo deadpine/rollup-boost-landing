@@ -82,7 +82,7 @@ export default function Home() {
           alt="" 
           width={500} 
           height={500} 
-          className="h-160 w-auto max-w-fill mx-auto"
+          className="h-160 w-auto max-w-fill"
         />
       </section>
 
@@ -204,7 +204,7 @@ export default function Home() {
           alt="" 
           width={500} 
           height={500} 
-          className="h-160 w-auto max-w-fill mx-auto"
+          className="h-160 w-auto max-w-fill"
         />
         <div className="px-8">
           <Chip label="Tees" />
