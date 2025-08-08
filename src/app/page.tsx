@@ -7,16 +7,17 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-12 px-8 pb-20">
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-8 px-8 pb-20">
       <nav className="w-full flex justify-between p-8">
         <Image 
           src="/images/rollup-boost_logo.svg" 
           alt="Rollup boost logo" 
           width={60} 
           height={25} 
-          className="w-auto h-[25px]"
+          className="w-auto h-[28px]"
         />
-        <ul className="flex gap-6 font-mono uppercase text-sm">
+        <ul className="flex gap-7 font-mono uppercase text-sm">
+          <li>Rollup-Boost</li>
           <li>Use Cases</li>
           <li>Flashblocks</li>
           <li>Docs</li>
@@ -74,7 +75,7 @@ export default function Home() {
         />
       </section>
 
-      <section className="w-full gap-5 items-center py-16">
+      <section className="w-full gap-5 items-center py-12">
         <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-4xl pb-4">
             Verifiable priority within each Flashblock, offering stronger guarantees and enabling apps to internalize MEV.
@@ -107,7 +108,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full gap-5 items-center py-16">
+      <section className="w-full gap-5 items-center py-12">
         <div className="max-w-3xl mx-auto text-center py-12">
           <h2 className="text-black font-semibold text-4xl pb-4">
             Use cases: guarantees to users and allowing applications to internalize their MEV
@@ -147,12 +148,14 @@ export default function Home() {
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div className="px-8">
           <Chip label="Flashblocks" />
-          <h2 className="max-w-xl text-black font-semibold text-4xl">
-            Flashblocks: Open source plugins for based rollups
-          </h2>
-          <p>
-            Apply performance and functionality upgrades to existing rollup codebases
-          </p>
+          <div className="pt-8 py-6">
+            <h2 className="max-w-xl text-black font-semibold text-4xl py-4">
+              Flashblocks: Open source plugins for based rollups
+            </h2>
+            <p>
+              Apply performance and functionality upgrades to existing rollup codebases
+            </p>
+          </div>
           <List
             icon="/images/icon/check-circle.svg"
             title="Preconfirmations"
@@ -194,7 +197,7 @@ export default function Home() {
         />
         <div className="px-8">
           <Chip label="Tees" />
-          <h2 className="text-black font-semibold text-4xl">
+          <h2 className="text-black font-semibold text-4xl pt-12 pb-8">
             Decentralizing Ethereum’s Last Mile
           </h2>
           <p className="py-2">
