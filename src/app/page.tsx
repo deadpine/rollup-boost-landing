@@ -24,7 +24,7 @@ export default function Home() {
       </nav>
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div className="h-full flex flex-col justify-between p-8">
-          <h1 className="text-black font-semibold text-5xl font-degular pt-4">
+          <h1 className="text-black font-semibold text-5xl pt-4">
             Upgrade your rollups <br/>
             across performance, programmability, and decentralization.
           </h1>
@@ -75,7 +75,7 @@ export default function Home() {
 
       <section className="w-full gap-5 items-center py-16">
         <div className="max-w-3xl mx-auto text-center py-12">
-          <h2 className="text-black font-semibold text-4xl font-degular pb-4">
+          <h2 className="text-black font-semibold text-4xl pb-4">
             Verifiable priority within each Flashblock, offering stronger guarantees and enabling apps to internalize MEV.
           </h2>
           <p>
@@ -108,7 +108,7 @@ export default function Home() {
 
       <section className="w-full gap-5 items-center py-16">
         <div className="max-w-3xl mx-auto text-center py-12">
-          <h2 className="text-black font-semibold text-4xl font-degular pb-4">
+          <h2 className="text-black font-semibold text-4xl pb-4">
             Use cases: guarantees to users and allowing applications to internalize their MEV
           </h2>
           <p>
@@ -148,7 +148,7 @@ export default function Home() {
           <p>
             Flashblocks
           </p>
-          <h2 className="max-w-xl text-black font-semibold text-4xl font-degular">
+          <h2 className="max-w-xl text-black font-semibold text-4xl">
             Flashblocks: Open source plugins for based rollups
           </h2>
           <p>
@@ -197,7 +197,7 @@ export default function Home() {
           <p>
             tees
           </p>
-          <h2 className="text-black font-semibold text-4xl py-8 font-degular">
+          <h2 className="text-black font-semibold text-4xl py-8">
             Decentralizing Ethereum’s Last Mile
           </h2>
           <p className="py-2">
