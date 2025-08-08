@@ -7,7 +7,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-10 px-8 pb-20">
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-10 px-8">
+      
       <nav className="w-full flex justify-between p-8">
         <Image 
           src="/images/rollup-boost_logo.svg" 
@@ -24,6 +25,7 @@ export default function Home() {
           <li>Get in Touch</li>
         </ul>
       </nav>
+
       <section className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
         <div className="h-full flex flex-col justify-between p-8">
           <h1 className="text-black font-semibold text-5xl pt-4">
@@ -212,7 +214,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex flex-col gap-5 p-12 items-center rounded-4xl bg-[radial-gradient(250%_160%_at_100%_100%,_#F2FDB8_0%,_#DAFB4E_50%,_#A5EC5C_90%)]">
+      <section className="w-full flex flex-col gap-7 p-16 items-center rounded-[96px] bg-[radial-gradient(250%_160%_at_100%_100%,_#F2FDB8_0%,_#DAFB4E_50%,_#A5EC5C_90%)]">
         <h2 className="text-black font-semibold text-4xl">
           Explore Our Tech
         </h2>
@@ -229,6 +231,19 @@ export default function Home() {
           Visit our website page or contact us to get in touch.
         </p>
       </section>
+
+      <footer className="w-full flex items-center justify-between p-8">
+        <Image 
+          src="/images/flashbots_logo.svg" 
+          alt="Flashbots logo" 
+          width={60} 
+          height={25} 
+          className="w-auto h-[25px]"
+        />
+        <p className="font-mono uppercase text-xs">
+          Copyright © 2025 flashbots - All Rights Reserved
+        </p>
+      </footer>
 
     </main>
     
