@@ -82,7 +82,7 @@ export default function Home() {
           alt="" 
           width={500} 
           height={500} 
-          className="h-160 w-auto max-w-fill"
+          className="w-full h-auto max-w-fill max-h-160  "
         />
       </section>
 
@@ -223,20 +223,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="w-full flex flex-col gap-7 p-16 items-center rounded-[96px] bg-[radial-gradient(250%_160%_at_100%_100%,_#F2FDB8_0%,_#DAFB4E_50%,_#A5EC5C_90%)]">
+      <section id="contact" className="w-full flex flex-col gap-7 p-16 items-center rounded-[96px] bg-[#F1F2F3]">
         <h2 className="text-black font-semibold text-4xl">
           Explore Our Tech
         </h2>
         <div className="flex gap-4">
           <a 
             href="https://github.com/flashbots/rollup-boost" target="_blank" 
-            className="px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] bg-[#1A1D16] text-white hover:bg-[#31411C]"
+            className="px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] bg-[#1A1D16] text-white hover:bg-[#394046]"
           >
             Try Testnet →
           </a>
           <a 
             href="https://github.com/flashbots/rollup-boost" target="_blank" 
-            className="px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] text-black hover:bg-[#FFFFFF80] hover:text-[#1A1D16]"
+            className="px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] text-black hover:bg-[#FFFFFF80] hover:text-[#1A1D16] hover:border-[#505A62]"
           >
             Explore Github →
           </a>
