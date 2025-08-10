@@ -228,13 +228,15 @@ export default function Home() {
         </h2>
         <div className="flex flex-col items-center sm:flex-row gap-4">
           <a 
-            href="https://github.com/flashbots/rollup-boost" target="_blank" 
+            href="https://github.com/flashbots/rollup-boost"
+            target="_blank" 
             className="w-fit px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] bg-[#1A1D16] text-white hover:bg-[#394046]"
           >
             Try Testnet →
           </a>
           <a 
-            href="https://github.com/flashbots/rollup-boost" target="_blank" 
+            href="https://github.com/flashbots/rollup-boost"
+            target="_blank" 
             className="w-fit px-8 py-4 font-mono font-meium uppercase rounded-full border border-[#1A1D16] text-black hover:bg-[#FFFFFF80] hover:text-[#1A1D16] hover:border-[#505A62]"
           >
             Explore Github →
