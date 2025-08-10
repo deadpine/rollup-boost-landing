@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     // <div className=" grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-    <main className="font-sans flex flex-col items-center sm:items-start space-y-4 md:space-y-14 px-6 md:px-8">
+    <main className="font-sans flex flex-col items-center sm:items-start space-y-6 md:space-y-14 px-6 md:px-8">
       
       <nav className="w-full flex justify-between pt-6 pb-2 md:p-8">
         <Image 
@@ -156,7 +156,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="flashblocks" className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center py-16 md:py-4">
+      <section id="flashblocks" className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center py-8 md:py-4">
         <Image 
           src="/images/flashblocks-section.png" 
           alt="" 
