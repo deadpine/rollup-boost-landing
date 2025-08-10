@@ -39,7 +39,7 @@ export default function Home() {
       <section id="home" className="w-full grid grid-cols-1 md:grid-cols-2 items-center">
         <Image 
           src="/images/hero.svg" 
-          alt="" 
+          alt="Rollup boost module illustration" 
           width={500} 
           height={500} 
           className="w-full h-auto max-w-fill max-h-160 md:order-2"
@@ -55,28 +55,28 @@ export default function Home() {
             <div className="flex gap-4">
               <Image 
                 src="/images/base.svg" 
-                alt="" 
+                alt="base icon" 
                 width={88} 
                 height={88} 
                 className="w-16 md:w-22 h-auto"
               />
               <Image 
                 src="/images/unichain.svg" 
-                alt="" 
+                alt="unichain icon" 
                 width={88} 
                 height={88} 
                 className="w-16 md:w-22 h-auto"
               />
               <Image 
                 src="/images/world.svg" 
-                alt="" 
+                alt="world icon" 
                 width={88} 
                 height={88} 
                 className="w-16 md:w-22 h-auto"
               />
               <Image 
                 src="/images/optimism.svg" 
-                alt="" 
+                alt="optimism icon" 
                 width={88} 
                 height={88} 
                 className="w-16 md:w-22 h-auto"
@@ -159,7 +159,7 @@ export default function Home() {
       <section id="flashblocks" className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center py-8 md:py-4">
         <Image 
           src="/images/flashblocks-section.png" 
-          alt="" 
+          alt="Flashblock module illustration" 
           width={500} 
           height={500} 
           className="w-full max-w-fill h-90 md:h-auto md:max-h-140 object-cover md:object-contain md:order-2"
@@ -200,7 +200,7 @@ export default function Home() {
       <section id="tees" className="w-full grid grid-cols-1 md:grid-cols-2 gap-5 items-center py-6">
         <Image 
           src="/images/tees-section.png" 
-          alt="" 
+          alt="Rollup Boost TEEs module illustration" 
           width={500} 
           height={500} 
           className="w-full max-w-fill h-90 md:h-auto md:max-h-140 object-cover md:object-contain"
